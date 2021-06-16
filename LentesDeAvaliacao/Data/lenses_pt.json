@@ -1,0 +1,618 @@
+[
+    {
+        "category": "UX",
+        "code": "UX01",
+        "name": "Simplicidade",
+        "description": "Informações mínimas e compactas, que devem ser concisas para que o usuário não precise de muito tempo para lê-las. Usuários de dispositivos móveis geralmente precisam se concentrar em mais de uma tarefa ao mesmo tempo, por isso a interface não deve ser complexa.",
+        "questions": "As informações necessárias para finalizar a tarefa estão presentes na interface? Há informações que podem ser descartadas? ",
+        "relatedCards": "U03 e A05"
+    },
+
+    {
+        "category": "UX",
+        "code": "UX02",
+        "name": "Satisfação",
+        "description": "Despertar bons sentimentos no usuário ao longo da interação.",
+        "questions": "Que sentimentos espera-se despertar nos usuários?  Os elementos visuais e a interação corroboram para despertar os sentimentos pretendidos?",
+        "relatedCards": "U13 e E12"
+    },
+
+    {
+        "category": "UX",
+        "code": "UX03",
+        "name": "Métricas mensuráveis",
+        "description": "É necessário estabelecer métricas mensuráveis que auxiliem o time a compreender se o produto alcançou seus objetivos.",
+        "questions": "Quais métricas estão disponíveis para acompanhar o projeto? \nAs definições de sucesso estão claras? \nComo ocorre o acompanhamento das métricas?\nA estratégia atual ainda é válida?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "UX",
+        "code": "UX04",
+        "name": "Fácil de aprender",
+        "description": "As operações podem ser aprendidas observando o objeto. ",
+        "questions": "Os padrões de interação criados são reaproveitados? \nConhecimentos prévios dos usuários são considerados?\n",
+        "relatedCards": null
+    },
+
+    {
+        "category": "UX",
+        "code": "UX05",
+        "name": "Fácil de usar",
+        "description": "É essencial criar uma interface amigável para obter uma experiência de usuário boa e confiável.",
+        "questions": "O usuário consegue compreender quase que instantaneamente como interagir? \nHá instruções claras e objetivas?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "UX",
+        "code": "UX06",
+        "name": "Utilidade\npercebida",
+        "description": "A utilidade do produto deve ser facilmente percebida.",
+        "questions": "O propósito do produto é claro e fácil de ser compreendido?\nOs usuário conseguem descrever os benefícios de utilizar o produto?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "UX",
+        "code": "UX07",
+        "name": "Acessível",
+        "description": "É importante considerar uma amplitude de perfis de usuários ao projetar e desenvolver aplicativos.",
+        "questions": "Quais perfis de usuários conseguem interagir facilmente com a interface? \nQuais perfis de usuários não conseguem interagir facilmente com a interface? \n",
+        "relatedCards": null
+    },
+
+    {
+        "category": "UX",
+        "code": "UX08",
+        "name": "Prevenir erros",
+        "description": "Sempre há uma chance de erro humano. Portanto, a interação e a interface devem ser projetadas de forma a evitar confusão e sobrecarga mental.",
+        "questions": "Mensagens de alertas são claras? \nQuais recursos são disponibilizados para auxiliar o usuário a se recuperar de erros?\nHá feedback instrutivo e em tempo real? ",
+        "relatedCards": "U09"
+    },
+    
+    {
+        "category": "UX",
+        "code": "UX09",
+        "name": "Conectividade",
+        "description": "É a capacidade de acessar informações rapidamente em um curto espaço de tempo. Também permite que a aplicação seja parada, iniciada e retomada com pouco ou nenhum esforço. É necessário considerar a conectividade móvel e seus desafios específicos. ",
+        "questions": "O que ocorre se o usuário não possuir acesso a internet? \nQue informações podem ser fornecidas na ausência de conexão? \nComo é comunicada a ausência de conectividade? ",
+        "relatedCards": null
+    },
+
+    {
+        "category": "UX",
+        "code": "UX10",
+        "name": "Personalização",
+        "description": "Usuários experientes desejam fortemente a sensação de que estão no comando da interface e que a interface responde às suas ações.",
+        "questions": "O quão configurável é a interface? \nQuais são as principais funcionalidades que permitem o usuário configurar a interface?\nQuais são as exigências relacionadas a este tópico que chegam através dos canais de contato com usuários? ",
+        "relatedCards": "U18"
+    },
+
+    {
+        "category": "UX",
+        "code": "UX11",
+        "name": "Desejável",
+        "description": "O produto deve proporcionar benefícios aos seus usuários. Tornando-se além de útil.",
+        "questions": "Como os usuários descrevem o produto? \nQuais são as iniciativas para despertar um senso de desejo em relação ao produto? \n",
+        "relatedCards": null
+    },
+
+    {
+        "category": "UX",
+        "code": "UX12",
+        "name":  "Interatividade",
+        "description": "Navegação simples e clara. Ações de retornar são facilmente percebida e realizadas. É necessário também buscar reduzir a quantidade de elementos em menus de opções.",
+        "questions":"As ações possíveis estão bem demarcadas?\nOs textos em botões indicam claramente as ações que serão executadas?\nQuantas opções existem nos menus? \n",
+        "relatedCards": "U08 e A07"
+    },
+
+    {
+        "category": "UX",
+        "code": "UX13",
+        "name": "Verossímil",
+        "description": "É fundamental compreender os vários elementos que influenciam os usuários a confiar e usar qualquer produto. Projetar elementos confiáveis ​​pode ajudar a influenciar os usuários a confiar em um produto e acreditar no que lhes é dito. ",
+        "questions": "São solicitadas permissões para acessar informações sensíveis do usuário?Há formas fáceis de modificar as permissões? \n",
+        "relatedCards": "U02"
+    },
+
+    {
+        "category": "UX",
+        "code": "UX14",
+        "name": "Naturalidade",
+        "description": "Uma interface comum torna o sistema intuitivo, o que reduz a curva de aprendizado significativamente.",
+        "questions": "Os padrões utilizados na interface se assemelham aos utilizados em outros produtos utilizados pelo público? \nSão incluídos padrões da plataforma durante o projeto da interface? ",
+        "relatedCards": "U17 e A04"
+    },
+
+    {
+        "category": "UX",
+        "code": "UX15",
+        "name": "Conheça o\nseu usuário",
+        "description": "A interação e a interface devem atender às necessidades e capacidades dos usuários finais. ",
+        "questions": "Quais as necessidades do público-alvo? \nQuais os problemas buscamos resolver? \nForam criadas personas para reunir características do público-alvo?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "UX",
+        "code": "UX16",
+        "name": "Continuidade",
+        "description": "Uma boa interface é consistente em suas interações. A consistência ajudará os usuários a formar sua percepção sobre o aplicativo.",
+        "questions": "Há versões para diferentes dispositivos (smartphones, tablets e/ou computadores)?\nA interface é semelhante dentre as diferentes versões do produto?\n",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E01",
+        "name": "Estilo de \ninterface",
+        "description": "Acompanhe os movimentos estéticos e compreenda como se beneficiar e aplicar de forma coerente no projeto.",
+        "questions": "Que estilos são tendências atualmente? \nHá benefícios em incorporá-los na interface?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E02",
+        "name": "Simetria",
+        "description": "Explore o conceito de simetria para dar previsibilidade e consistência a estética da interface.\n",
+        "questions": "A simetria da interface é agradável ou monótona?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E03",
+        "name": "Composição",
+        "description": "Apresentar os objetos interativos de uma maneira significativa e compreensível, a fim de orientar o usuário sobre como interagir de forma adequada.",
+        "questions": "Os Objetos interativos estão posicionados em locais da tela que facilitam a interação? \nQuais são as posições mais comuns para determinado tipo de ação?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E04",
+        "name": "Densidade",
+        "description": "Refere-se a quantidade de objetos dispostos ao longo da interface. Observe a proporção preenchida por elementos visuais em relação aos espaços vazios.",
+        "questions": "Há áreas de respiro para as informações contidas em cada tela? \nHá uma sensação de ausência de ponto focal ao deparar-se com a interface?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E05",
+        "name": "Design Estético e Minimalista",
+        "description": "Reduzir e simplificar os elementos contidos numa interface não é apenas uma estratégia apenas estética, mas é uma abordagem que dar ênfases as informações que são relevantes e facilitam a compreensão da interface pelos usuários.",
+        "questions": "Há elementos puramente estéticos na interface? \nAs informação relevantes podem ser consumidas sem distrações?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E06",
+        "name": "Cores",
+        "description": "Escolha cores que funcionem bem individualmente e em combinações. Considerando sistemas com fundo claro e fundo escuro. ",
+        "questions": "As cores utilizadas na interface são coerentes com as propostas da marca? \nAs cores funcionam bem em conjunto?",
+        "relatedCards": "A09"
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E07",
+        "name": "Diferentes\ntamanhos de tela",
+        "description": "Atente-se a restrições de dispositivos específicos e aos diferentes tamanhos de telas disponíveis.",
+        "questions": "Em quais dispositivos o produto será disponibilizado?\nA interface é otimizada em cada um dos tamanhos de telas possíveis? ",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E08",
+        "name": "Organização",
+        "description": "Alinhamento, agrupamento e espaçamento são elementos chaves para a organização visual das telas.",
+        "questions": "Os alinhamentos são padronizados? \nHá um cuidado de implementar as definições de alinhamento, agrupamento e espaçamento adequadamente? \nÉ avaliado se a interface implementada é igual ou semelhante a interface projetada? ",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E09",
+        "name": "Tamanho do\ntexto",
+        "description": "Considere diferentes tamanhos para fontes diferentes, sempre priorizando a legibilidade e tendo em mente que tamanho de texto é configurável.",
+        "questions": "O texto é legível em seu tamanho padrão? \nAs cores utilizadas nos textos atrapalham a legibilidade? ",
+        "relatedCards": "A08"
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E10",
+        "name": "Uso coerente de multimídia",
+        "description": "Diferentes telas possuem capacidade de renderizar mídias de forma diferente. Compreenda o contexto e qual a melhor mídia para utilizar. ",
+        "questions": "Os assets exportados foram pensados para a utilização específica? \nA qualidade dos assets é coerente com a plataforma? ",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E11",
+        "name": "Homogeneidade",
+        "description": "A boa homogeneidade é alcançada por uma distribuição igual dos elementos entre os quatro quadrantes da tela.",
+        "questions": "Há harmonia da distribuição dos elementos ao longo da tela? \nHá espaço inutilizados? ",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E12",
+        "name": "Atratividade",
+        "description": "A atratividade do design fará com que o usuário se envolva, fique satisfeito e use o aplicativo com frequência.",
+        "questions": "Quais características tornam a interface atrativa? \nQue pontos podem ser ajustados para tornar a interface visualmente mais atrativa? ",
+        "relatedCards": "UX02 e U13"
+    },
+    
+    {
+        "category": "Aesthetics",
+        "code": "E13",
+        "name": "Ordenação",
+        "description": "Os componente devem ser posicionados de forma a conduzir o olhar do usuário através da interface em uma ordem lógica e sequencial que refere-se às necessidades do usuário.",
+        "questions": "A ordenação dos elementos na tela segue uma sequência de leitura agradável?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E14",
+        "name": "Apresentação",
+        "description": "Tudo apresentado precisa ser legível e coerente com a utilidade do produto.",
+        "questions": "Em conjunto, os elementos da tela compõem uma apresentação interessante? \nA forma atual de apresentar as informações é a melhor possível?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E15",
+        "name": "Estrutura do texto",
+        "description": "O texto deve ser estruturado de forma a guiar a leitura, utilizando-se da hierarquia visual criada através de diferenciação de tipo, peso e aparência,  para demonstrar a diferença entre títulos, subtítulos e corpo textual.",
+        "questions": "As características de peso da fonte são utilizadas de forma a beneficiar a hierarquia? \nCaracterística de tamanho de linha, espaçamento entre linhas e tamanho do parágrafos foram planejadas?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U01",
+        "name": "Completude",
+        "description": "Capacidade de parecer um produto finalizado e completo.",
+        "questions": "As funcionalidades atualmente implementadas compões uma versão que entrega valor para o usuário?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U02",
+        "name": "Privacidade",
+        "description": "Explicitar as motivações de solicitar as informações e acesso a dados. Compreender os recursos necessário para proteger os dados dos usuários.",
+        "questions": "As diretrizes de privacidade da plataforma são seguidas? \nO usuário tem consciência de todas as informações são compartilhadas com o produto?",
+        "relatedCards": "UX13"
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U03",
+        "name": "Complexidade",
+        "description": "Elaborar interações simples e objetivas, que auxiliem o usuário a alcançar seus objetivos e não os distraia.",
+        "questions": "A forma como as interações são planejadas atualmente visa diminuir a complexidade? \nQue recursos são utilizados para auxiliar os usuários em tarefas complexas? ",
+        "relatedCards": "UX01 e A05"
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U04",
+        "name": "Adequação do componente à sua funcionalidade",
+        "description": "Há componentes criados para situações específicas, os conheça e utilize da forma como foram projetados para funcionar. ",
+        "questions": "Os componentes padrão do sistema operacional são conhecidos pela equipe? \nAntes de implementar um componente novo para um uso específico, o componentes já existentes são considerados? ",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U05",
+        "name": "Narrativas para estruturar o conteúdo",
+        "description": "Pensar o conteúdo como narrativa significa torná-lo interessante, enquanto útil. ",
+        "questions": "Recursos de narrativa são utilizados para estruturas a sequência lógica de apresentação do conteúdo?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U06",
+        "name": "Eficácia",
+        "description": "Refere-se à forma como o produto atua em relação à finalidade pretendida.",
+        "questions":  "Os objetivos do produto são alcançados atualmente?\nAs necessidades dos usuários são supridas?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U07",
+        "name": "Fácil de\nreverter ações",
+        "description": "Disponibilize meios visíveis e acessíveis de voltar, desfazer ou cancelar as ações.",
+        "questions": "Os botões de voltar, retroceder ou desfazer estão visíveis na interface? \nHá recursos avançados para usuários avançados? ",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U08",
+        "name": "Navegação e acesso a informação",
+        "description": "Utilize padrões conhecidos de navegação. ",
+        "questions": "Quais os padrões de navegação são utilizados atualmente no projeto de interface? \nHá como simplificá-los? ",
+        "relatedCards": "UX12 e A07"
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U09",
+        "name": "Reconhecer, diagnosticar e recuperar erros",
+        "description": "Quando ocorrerem erros é necessário proporcionar ao usuário meios de reconhecê-los e de se recuperar. ",
+        "questions": "Os fluxo de telas relacionados a recuperação de erros são simples e claros?\nSão dadas opções claras para os usuários?  ",
+        "relatedCards": "UX08"
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U10",
+        "name": "Compreensibilidade",
+        "description": "Capacidade de ser compreendido com facilidade.",
+        "questions": "A linguagem utilizada é coerente com o público-alvo? \nA linguagem é consistente através de toda a interface? ",
+        "relatedCards": "A13"
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U11",
+        "name": "Eficiência",
+        "description": "Grau até o qual o produto está permitindo que as tarefas sejam realizadas em um maneira rápida, eficaz e econômica ou está prejudicando o desempenho.",
+        "questions": "Quantos passos são necessários para realizar a funcionalidade principal de seu produto?\nHá como reduzir a quantidade de passos? ",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U12",
+        "name": "Visibilidade do estado do sistema",
+        "description": " Garanta que os feedbacks da aplicação são coerentes e consistentes, para isto o usuário sempre deve ser informado pelo sistema em tempo razoável sobre o que está acontecendo.  ",
+        "questions": "Os estados do sistema são claros? \nOs botões possuem diferentes estados? \nEstados de carregamentos são indicados visualmente?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U13",
+        "name": "Satisfação com o suporte à decisão",
+        "description":  "O usuário deve receber apoio para tomar decisões, principalmente quando estas representam ações não recuperáveis. Os textos devem ser claro e informativos, o usuário deve-se sentir auxiliado e satisfeito. ",
+        "questions": "Em ações drásticas ou complexas as opções disponíveis são apoiadas por textos explicativos?",
+        "relatedCards": "UX02 e E12"
+
+    },
+
+
+
+    {
+        "category": "Usability",
+        "code": "U14",
+        "name": "Prevenção\nde erros",
+        "description": "Projetar imaginando que erros são possíveis e como torná-los menos frequentes. ",
+        "questions": "Possíveis erros foram considerados durante o planejamento da interface? \nOs gargalos de uso da aplicação são causados por problemas que podem ser evitados melhorando a interface? ",
+        "relatedCards": "A14"
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U15",
+        "name": "Adequação da mensagem à funcionalidade",
+        "description": "Compreenda como comunicar para o seu público. ",
+        "questions": "São evitados termos incoerentes com o público?\nMetáforas são utilizadas para facilitar a compreensão de tarefas complexas?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U16",
+        "name": "Controle e liberdade do usuário",
+        "description": "O sistema deve tornar disponível funções que possibilitem que o usuário o controlem e personalize. ",
+        "questions": "As informações exibidas são limitadas para auxiliar a interação? \nO acesso a informações completas é facilitado? \n",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U17",
+        "name": "Consistência e padrões",
+        "description": "Respeitar padrões pré-estabelecidos e repetí-los ao longo da interface.",
+        "questions": "Há padrões de interação simples?\nEstes padrões são previamente conhecidos pelos usuários?",
+        "relatedCards": "UX14 e A04"
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U18",
+        "name": "Flexibilidade e eficiência de uso",
+        "description": "Oportunidade de gerenciar o aplicativo de acordo com a capacidade e compreensão do próprio usuário.",
+        "questions": "Existem formas diferentes de realizar a mesma tarefa? \nUsuários básicos e avançados são considerados durante o projeto da interface? ",
+        "relatedCards": "UX10"
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U19",
+        "name": "Match entre sistema e mundo real",
+        "description": "O modelo lógico do sistema deve ser compatível com o modelo lógico do usuário.",
+        "questions": "As referências visuais se baseiam em conhecimentos prévios do usuário?\nAs metáforas utilizadas são facilmente compreendidas pelos os usuários? ",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Accessibility",
+        "code": "A01",
+        "name": "Dificuldades específicas de cada público",
+        "description": "Garantir que pessoas com diferentes deficiências sejam beneficiadas tornará o produto mais utilizável em muitas circunstâncias",
+        "questions": "As dificuldades específicas do público alvo são conhecidas? \nAs dificuldades são consideradas durante o projeto de interface? ",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Accessibility",
+        "code": "A02",
+        "name": "Exiba explicitamente o modo atual",
+        "description": "Os indicadores de mudanças de modo devem ser persistentes e grandes.",
+        "questions": "Os recursos de feedback são discretos e difíceis de perceber? \nComo torná-los mais visíveis e simples? ",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Accessibility",
+        "code": "A03",
+        "name": "Testes",
+        "description": "Testar recursos de acessibilidade ao longo do desenvolvimento. Para ter eficácia em sua acessibilidade, é importante aprender com o seu público o que melhor satisfaz suas necessidades.",
+        "questions": "Há a oportunidade de testar com usuários reais? \nComo incluir testes com usuários reais no planejamento? ",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Accessibility",
+        "code": "A04",
+        "name": "Interação",
+        "description": "Ênfase em padrões populares e simples, isso auxilia por conta da familiaridade com sistemas previamente utilizados.",
+        "questions": "A equipe reconhece padrões populares que favorecem a acessibilidade?\nQuais aplicativos podem ser explorados para expandir o repertório de padrões de interação?   ",
+        "relatedCards": "U17 e UX14"
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A05",
+        "name": "Simplicidade",
+        "description": "Apresentar cabeçalhos, listas, tabela e outras estruturas de forma simples. Faça sua interface parecer simples e eficiente. Use linguagem contextualizada. ",
+        "questions": "Os elementos visuais utilizados são os mais simples possíveis? \nHá recursos para reduzir o elementos visuais quando necessário?",
+        "relatedCards": "UX e U03"
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A06",
+        "name": "Alternativas\nde uso",
+        "description": "Todas as funcionalidades que estão disponíveis por toque devem estar também disponíveis por outros meios existentes no dispositivo.",
+        "questions": "É possível utilizar o produto apenas com leitor de tela? \nPessoas daltônicas conseguem distinguir as cores?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A07",
+        "name": "Navegação",
+        "description": "Navegações simplificadas auxiliam a utilização de recursos de acessibilidade. ",
+        "questions": "Padrões complexos de navegação são evitados? \nHá recursos para reconhecer o caminho percorrido na interface? \nRótulos demarcando a sessão atual são claros? ",
+        "relatedCards": "UX12 e U08"
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A08",
+        "name": "Aparência\ndos textos",
+        "description": "Tornar disponível formas de modificar o tamanho e aspectos do texto, afim de torná-los mais adaptados a realidade do usuário. Optar sempre por fontes simples, sem adornos e com ênfase na legibilidade. ",
+        "questions": "A interface é pensada para as variações de tamanhos de texto permitidas pelos sistemas operacionais? \nA fonte utilizada favorece a leitura? ",
+        "relatedCards": "E09"
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A09",
+        "name": "Cores",
+        "description": "Utilize cores com a consciência de que há diversas condições que modificam a forma como as pessoas enxergam e percebem as cores.",
+        "questions": "Existem ícones associados à cores quando utilizadas para definir categorias? \nHá possibilidade de personalizar as cores presentes na interface?   ",
+        "relatedCards": "E06"
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A10",
+        "name": "Priorize a\nutilização de\ngestos simples",
+        "description": "Embora os aplicativos não precisem evitar o uso de operações de arrastar e pinçar, o aplicativo deve fornecer instruções e dicas visuais claras para mostrar qual gesto invoca qual função. ",
+        "questions":  "As funcionalidades disponíveis através de gestos também são acessíveis de outras formas?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A11",
+        "name": "Use alvos\nmaiores",
+        "description": "Espaçamentos  adequados, com alvos maiores e claros. ",
+        "questions": "Os espaçamentos seguem as recomendações das diretrizes de limite mínimo de tamanho? \nHá a possibilidade de tornar os alvos maiores? ",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A12",
+        "name": "Recursos de compreensão",
+        "description": "Usar texto e imagem em conjunto para transmitir a mensagem pretendida.",
+        "questions": "O público alvo compreende melhor ícones ou textos? \nComo utilizar imagens para facilitar a compreensão das informações contidas na interface? ",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A13",
+        "name": "Facilidade de compreensão",
+        "description": "As informações e os componentes da interface do usuário devem ser apresentados em formas que possam ser percebidas pelo usuário.",
+        "questions": "As decisões estéticas tornam os elementos visuais mais complexos? \nA sobreposições dos elementos é simples?",
+        "relatedCards": "U10"
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A14",
+        "name": "Ajuda",
+        "description": "Implementar ajuda para funcionalidades complexas.",
+        "questions": "Há instruções no primeiro uso do produto? \nOs tutoriais são facilmente recuperados?",
+        "relatedCards": "U14"
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A15",
+        "name": "Evite implementar conteúdo intermitente",
+        "description": "Evite o uso de telas temporárias, como alertas e pop-ups, a mudança brusca de contexto é um favor que impacta negativamente na experiência de diversos perfis de usuários. ",
+        "questions": "O usuário se depara com pop-ups em que situações? \nHá como minimizar o uso de pop-ups? ",
+        "relatedCards": null
+    }
+]

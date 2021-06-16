@@ -1,0 +1,618 @@
+[
+    {
+        "category": "UX",
+        "code": "UX01",
+        "name": "Simplicity",
+        "description": "Minimal and compact information, which should be concise so that the user does not need a lot of time to read it. Mobile device users generally need to focus on more than one task at a time, so the interface does not must be complex. ",
+        "questions": "Is the information needed to complete the task present in the interface? Is there information that can be discarded?",
+        "relatedCards": "U03 and A05"
+    },
+
+    {
+        "category": "UX",
+        "code": "UX02",
+        "name": "Satisfaction",
+        "description": "Arouse good feelings in the user throughout the interaction.",
+        "questions": "What feelings are expected to awaken in users? Do the visual elements and the interaction corroborate to awaken the intended feelings?",
+        "relatedCards": "U13 and E12"
+    },
+
+    {
+        "category": "UX",
+        "code": "UX03",
+        "name": "Measurable metrics",
+        "description": "It is necessary to establish measurable metrics that help the team to understand if the product has achieved its objectives.",
+        "questions": "What metrics are available to accompany the project? \n Are the definitions of success clear? \n How do metrics follow up? \n Is the current strategy still valid?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "UX",
+        "code": "UX04",
+        "name": "Easy to learn",
+        "description": "Operations can be learned by looking at the object.",
+        "questions": "Are the interaction patterns created reused? \n User previous knowledge is taken into account? \n",
+        "relatedCards": null
+    },
+
+    {
+        "category": "UX",
+        "code": "UX05",
+        "name": "Easy to use",
+        "description": "It is essential to create a friendly interface for a good and reliable user experience.",
+        "questions": "Can the user understand almost instantly how to interact? \n Are there clear and objective instructions?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "UX",
+        "code": "UX06",
+        "name": "Utility \n perceived",
+        "description": "The usefulness of the product must be easily understood.",
+        "questions": "Is the purpose of the product clear and easy to understand? \n Can users describe the benefits of using the product?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "UX",
+        "code": "UX07",
+        "name": "Accessible",
+        "description": "It is important to consider a wide range of user profiles when designing and developing applications.",
+        "questions": "Which user profiles can easily interact with the interface? \n What user profiles cannot easily interact with the interface? \n",
+        "relatedCards": null
+    },
+
+    {
+        "category": "UX",
+        "code": "UX08",
+        "name": "Prevent errors",
+        "description": "There is always a chance of human error. Therefore, the interaction and the interface must be designed in a way to avoid confusion and mental overload.",
+        "questions": "Are alert messages clear? \n What resources are available to help the user recover from errors? \n Is there real-time, instructive feedback?",
+        "relatedCards": "U09"
+    },
+    
+    {
+        "category": "UX",
+        "code": "UX09",
+        "name": "Connectivity",
+        "description": "It is the ability to access information quickly in a short time. It also allows the application to be stopped, started and resumed with little or no effort. It is necessary to consider mobile connectivity and its specific challenges.",
+        "questions": "What happens if the user does not have access to the internet? \n What information can be provided in the absence of a connection? \n How is the absence of connectivity communicated?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "UX",
+        "code": "UX10",
+        "name": "Personalization",
+        "description": "Experienced users strongly desire the feeling that they are in charge of the interface and that the interface responds to their actions.",
+        "questions": "How configurable is the interface? \n What are the main features that allow the user to configure the interface? \n What are the requirements related to this topic that arrive through user contact channels?",
+        "relatedCards": "U18"
+    },
+
+    {
+        "category": "UX",
+        "code": "UX11",
+        "name": "Desirable",
+        "description": "The product should provide benefits to its users. It will become more than useful.",
+        "questions": "How do users describe the product? \n What are the initiatives to awaken a sense of desire about the product? \n",
+        "relatedCards": null
+    },
+
+    {
+        "category": "UX",
+        "code": "UX12",
+        "name": "Interactivity",
+        "description": "Simple and clear navigation. Return actions are easily perceived and performed. It is also necessary to try to reduce the number of elements in options menus.",
+        "questions": "Are the possible actions well demarcated? \nDo the text on buttons clearly indicate the actions that will be performed? \nHow many options are there in the menus? \n",
+        "relatedCards": "U08 and A07"
+    },
+
+    {
+        "category": "UX",
+        "code": "UX13",
+        "name": "Credible",
+        "description": "It is critical to understand the various elements that influence users to trust and use any product. Designing trusted elements can help influence users to trust a product and believe what they are told.",
+        "questions": "Are you asked for permissions to access sensitive user information? Are there easy ways to modify permissions? \n",
+        "relatedCards": "U02"
+    },
+
+    {
+        "category": "UX",
+        "code": "UX14",
+        "name": "Naturalness",
+        "description": "A common interface makes the system intuitive, which reduces the learning curve significantly.",
+        "questions": "Are the standards used in the interface similar to those used in other products used by the public? \n Are platform standards included during the design of the interface?",
+        "relatedCards": "U17 and A04"
+    },
+
+    {
+        "category": "UX",
+        "code": "UX15",
+        "name": "Meet \nyour user",
+        "description": "The interaction and interface must meet the needs and capabilities of end users.",
+        "questions": "What are the needs of the target audience? \nWhat problems do we seek to solve? \nWere personas created to bring together characteristics of the target audience?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "UX",
+        "code": "UX16",
+        "name": "Continuity",
+        "description": "A good interface is consistent in your interactions. Consistency will help users to form their perception of the application.",
+        "questions": "Are there versions for different devices (smartphones, tablets and / or computers)? \nIs the interface similar between different versions of the product? \n",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E01",
+        "name": "Interface style",
+        "description": "Follow the aesthetic movements and understand how to benefit and apply consistently in the project.",
+        "questions": "What styles are currently trending? \nAre there any benefits to incorporating them into the interface?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E02",
+        "name": "Symmetry",
+        "description": "Explore the concept of symmetry to give predictability and consistency to the aesthetics of the interface.",
+        "questions": "Is the symmetry of the interface pleasant or monotonous?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E03",
+        "name": "Composition",
+        "description": "Present the interactive objects in a meaningful and understandable way, in order to guide the user on how to interact properly.",
+        "questions": "Are interactive objects positioned in places on the screen that facilitate interaction? \nWhat are the most common positions for a particular type of action?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E04",
+        "name": "Density",
+        "description": "Refers to the number of objects arranged along the interface. Note the proportion filled by visual elements in relation to the empty spaces.",
+        "questions": "Are there any breathing areas for the information on each screen? \nIs there a feeling of absence of a focal point when encountering the interface?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E05",
+        "name": "Aesthetic and Minimalist Design",
+        "description": "Reducing and simplifying the elements contained in an interface is not just an aesthetic strategy, but it is an approach that emphasizes information that is relevant and facilitates the understanding of the interface by users.",
+        "questions": "Are there purely aesthetic elements in the interface? \nCan relevant information be consumed without distractions?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E06",
+        "name": "Colors",
+        "description": "Choose colors that work well individually and in combinations. Considering systems with light and dark backgrounds.",
+        "questions": "Are the colors used in the interface consistent with the brand's proposals? \nDo the colors work well together?",
+        "relatedCards": "A09"
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E07",
+        "name": "Different \nscreen sizes",
+        "description": "Pay attention to specific device restrictions and the different screen sizes available.",
+        "questions": "On which devices will the product be available? \nIs the interface optimized for each of the possible screen sizes?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E08",
+        "name": "Organization",
+        "description": "Alignment, grouping and spacing are key elements for the visual organization of the screens.",
+        "questions": "Are the alignments standardized? \nIs there a care to implement the alignment, grouping and spacing definitions properly? \nIs it evaluated whether the implemented interface is the same or similar to the designed interface?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E09",
+        "name": "Text size",
+        "description": "Consider different sizes for different fonts, always prioritizing readability and keeping in mind that text size is configurable.",
+        "questions": "Is the text readable in its standard size? \nDo the colors used in the texts hinder legibility?",
+        "relatedCards": "A08"
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E10",
+        "name": "Coherent use of multimedia",
+        "description": "Different screens have the ability to render media differently. Understand the context and what is the best media to use.",
+        "questions": "Were the exported assets designed for the specific use? \nIs the quality of the assets consistent with the platform?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E11",
+        "name": "Homogeneity",
+        "description": "Good homogeneity is achieved by an equal distribution of the elements between the four quadrants of the screen.",
+        "questions": "Is there a harmony in the distribution of elements across the screen? \nIs there any unused space?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E12",
+        "name": "Attractiveness",
+        "description": "The attractiveness of the design will make the user get involved, be satisfied and use the app frequently.",
+        "questions": "What features make the interface attractive? \nWhat points can be adjusted to make the interface visually more attractive?",
+        "relatedCards": "UX02 and U13"
+    },
+    
+    {
+        "category": "Aesthetics",
+        "code": "E13",
+        "name": "Sequence",
+        "description": "The components must be positioned in such a way as to guide the user's eye through the interface in a logical and sequential order that refers to the user's needs.",
+        "questions": "Does the ordering of the elements on the screen follow a pleasant reading sequence?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E14",
+        "name": "Presentation",
+        "description": "Everything presented must be legible and consistent with the usefulness of the product.",
+        "questions": "Together, the elements of the screen make up an interesting presentation? \nIs the current way of presenting information the best possible?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Aesthetics",
+        "code": "E15",
+        "name": "Text structure",
+        "description": "The text should be structured in order to guide the reading, using the visual hierarchy created through differentiation of type, weight and appearance, to demonstrate the difference between titles, subtitles and body text.",
+        "questions": "Are the font weight characteristics used to benefit the hierarchy? \nWere line size, line spacing and paragraph size features planned?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U01",
+        "name": "Completeness",
+        "description": "Ability to look like a finished and complete product.",
+        "questions": "Do the features currently implemented comprise a version that delivers value to the user?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U02",
+        "name": "Privacy",
+        "description": "Explain the reasons for requesting information and accessing data. Understand the resources needed to protect user data.",
+        "questions": "Are the platform's privacy guidelines followed? \nAre the user aware of all information being shared with the product?",
+        "relatedCards": "UX13"
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U03",
+        "name": "Complexity",
+        "description": "Develop simple and objective interactions, which help the user to achieve their goals and do not distract them.",
+        "questions": "Does the way interactions are currently planned aim to decrease complexity? \nWhat resources are used to assist users in complex tasks?",
+        "relatedCards": "UX01 and A05"
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U04",
+        "name": "Suitability of the component for its functionality",
+        "description": "There are components created for specific situations, get to know them and use them the way they were designed to work.",
+        "questions": "Are standard operating system components known to the team? \nBefore implementing a new component for a specific use, are existing components considered?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U05",
+        "name": "Narratives to structure the content",
+        "description": "Thinking of content as a narrative means making it interesting, while useful.",
+        "questions": "Narrative resources are used to structure the logical sequence of presentation of the content?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U06",
+        "name": "Effectiveness",
+        "description": "Refers to the way in which the product acts in relation to its intended purpose.",
+        "questions": "Are the product objectives currently being achieved? \nAre users' needs met?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U07",
+        "name": "Easy to \nrevert actions",
+        "description": "Provide visible and accessible means of returning, undoing or canceling actions.",
+        "questions": "Are the back, rewind or undo buttons visible in the interface? \nAre there advanced features for advanced users?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U08",
+        "name": "Navigation and access to information",
+        "description": "Use known navigation patterns.",
+        "questions": "What navigation standards are currently used in the interface design? \nIs there a way to simplify them?",
+        "relatedCards": "UX12 and A07"
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U09",
+        "name": "Recognize, diagnose and recover from errors",
+        "description": "When errors occur, it is necessary to provide the user with the means to recognize them and recover.",
+        "questions": "Are the flow of screens related to error recovery simple and clear? \nAre users given clear options?",
+        "relatedCards": "UX08"
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U10",
+        "name": "Understandability",
+        "description": "Ability to be easily understood.",
+        "questions": "Is the language used consistent with the target audience? \nIs the language consistent across the entire interface?",
+        "relatedCards": "A13"
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U11",
+        "name": "Efficiency",
+        "description": "Degree to which the product is allowing tasks to be performed in a quick, effective and economical manner or is hampering performance.",
+        "questions": "How many steps do I need to perform the main functionality of your product? \nIs there a way to reduce the number of steps?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U12",
+        "name": "System status visibility",
+        "description": "Ensure that the application's feedbacks are coherent and consistent, for this the user must always be informed by the system in reasonable time about what is happening.",
+        "questions": "Are the system states clear? \nDo the buttons have different states? \nLoading states are visually indicated?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U13",
+        "name": "Satisfaction with decision support",
+        "description": "The user must receive support to make decisions, especially when they represent non-recoverable actions. The texts must be clear and informative, the user must feel helped and satisfied.",
+        "questions": "In drastic or complex actions are the available options supported by explanatory texts?",
+        "relatedCards": "UX02 and E12"
+
+    },
+
+
+
+    {
+        "category": "Usability",
+        "code": "U14",
+        "name": "Error prevention \n",
+        "description": "Designing by imagining what mistakes are possible and how to make them less frequent.",
+        "questions": "Possible errors were considered when planning the interface? \nAre the application usage bottlenecks caused by problems that can be avoided by improving the interface?",
+        "relatedCards": "A14"
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U15",
+        "name": "Suitability of the message for functionality",
+        "description": "Understand how to communicate to your audience.",
+        "questions": "Are terms that are inconsistent with the public avoided? \nMetaphors are used to facilitate understanding of complex tasks?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U16",
+        "name": "User control and freedom",
+        "description": "The system must make available functions that allow the user to control and customize it.",
+        "questions": "Is the information displayed limited to assist interaction? \nIs access to complete information facilitated? ",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U17",
+        "name": "Consistency and standards",
+        "description": "Respect pre-established standards and repeat them throughout the interface.",
+        "questions": "Are there simple interaction patterns? \nAre these patterns known to users beforehand?",
+        "relatedCards": "UX14 and A04"
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U18",
+        "name": "Flexibility and efficiency of use",
+        "description": "Opportunity to manage the application according to the user's own ability and understanding.",
+        "questions": "Are there different ways to accomplish the same task? \nBasic and advanced users are considered when designing the interface?",
+        "relatedCards": "UX10"
+    },
+
+
+    {
+        "category": "Usability",
+        "code": "U19",
+        "name": "Match between system and real world",
+        "description": "The logical model of the system must be compatible with the logical model of the user.",
+        "questions": "Are visual references based on the user's prior knowledge? \nAre metaphors used easily understood by users?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Accessibility",
+        "code": "A01",
+        "name": "Specific difficulties for each audience",
+        "description": "Ensuring that people with different disabilities benefit will make the product more usable in many circumstances",
+        "questions": "Are the specific difficulties of the target audience known? \nThe difficulties are considered during the interface design?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Accessibility",
+        "code": "A02",
+        "name": "Explicitly display the current mode",
+        "description": "Mode change indicators must be persistent and large.",
+        "questions": "Are feedback resources discreet and difficult to understand? \nHow do you make them more visible and simple?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Accessibility",
+        "code": "A03",
+        "name": "Tests",
+        "description": "Test accessibility features throughout development. To be effective in your accessibility, it is important to learn from your audience what best meets their needs.",
+        "questions": "Is there an opportunity to test with real users? \nHow do I include tests with real users in the planning?",
+        "relatedCards": null
+    },
+
+    {
+        "category": "Accessibility",
+        "code": "A04",
+        "name": "Interaction",
+        "description": "Emphasis on popular and simple patterns, this helps because of the familiarity with previously used systems.",
+        "questions": "Does the team recognize popular patterns that favor accessibility? \nWhat applications can be explored to expand the repertoire of interaction patterns?",
+        "relatedCards": "U17 and UX14"
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A05",
+        "name": "Simplicity",
+        "description": "Present headings, lists, tables and other structures in a simple way. Make your interface look simple and efficient. Use contextualized language.",
+        "questions": "Are the visual elements used as simple as possible? \nAre there resources to reduce visual elements when necessary?",
+        "relatedCards": "UX and U03"
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A06",
+        "name": "Alternatives \nof use",
+        "description": "All features that are available by touch must also be available by other means on the device.",
+        "questions": "Is it possible to use the product only with a screen reader? \nCan colorblind people distinguish colors?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A07",
+        "name": "Navigation",
+        "description": "Simplified navigation helps to use accessibility features.",
+        "questions": "Are complex navigation patterns avoided? \nAre there resources for recognizing the path taken in the interface? \nAre labels demarcating the current session clear?",
+        "relatedCards": "UX12 and U08"
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A08",
+        "name": "Appearance \nof texts",
+        "description": "Make available ways to modify the size and aspects of the text, in order to make them more adapted to the user's reality. Always choose simple, unadorned fonts with an emphasis on legibility.",
+        "questions": "Is the interface designed for the variations in text sizes allowed by operating systems? \nDoes the font used favor reading?",
+        "relatedCards": "E09"
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A09",
+        "name": "Colors",
+        "description": "Use colors with the awareness that there are several conditions that modify the way people see and perceive colors.",
+        "questions": "Are there any icons associated with colors when used to define categories? \nIs it possible to customize the colors present in the interface?",
+        "relatedCards": "E06"
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A10",
+        "name": "Prioritize \nfeeding for simple \nneeds",
+        "description": "Although applications do not need to avoid using drag and pin operations, the application must provide clear visual instructions and hints to show which gesture invokes which function.",
+        "questions": "Are the features available through gestures also accessible in other ways?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A11",
+        "name": "Use higher targets",
+        "description": "Adequate spacing, with larger, clear targets.",
+        "questions": "Do the spacing follow the recommendations of the minimum size limit guidelines? \nIs there a possibility to make targets larger?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A12",
+        "name": "Understanding resources",
+        "description": "Use text and image together to convey the message you want.",
+        "questions": "Does the target audience understand icons or texts better? \nHow to use images to facilitate the understanding of the information contained in the interface?",
+        "relatedCards": null
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A13",
+        "name": "easy to understand",
+        "description": "User interface information and components must be presented in ways that can be perceived by the user.",
+        "questions": "Do aesthetic decisions make visual elements more complex? \nIs the overlapping of the elements simple?",
+        "relatedCards": "U10"
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A14",
+        "name": "Help",
+        "description": "Implement help for complex features.",
+        "questions": "Are there instructions on using the product for the first time? \nThe tutorials are easily retrieved?",
+        "relatedCards": "U14"
+    },
+
+
+    {
+        "category": "Accessibility",
+        "code": "A15",
+        "name": "Avoid implementing intermittent content",
+        "description": "Avoid the use of temporary screens, such as alerts and pop-ups, the sudden change of context is a favor that negatively impacts the experience of different user profiles.",
+        "questions": "In what situations does the user face pop-ups? \nIs there a way to minimize the use of pop-ups?",
+        "relatedCards": null
+    }
+]

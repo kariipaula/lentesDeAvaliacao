@@ -1,0 +1,14 @@
+
+
+"lens.listing.title" = "Lenses";
+"lens.listing.filter.placeholder" = "Search lenses here";
+
+"lens.category.ux.name" = "UX";
+"lens.category.usability.name" = "Usability";
+"lens.category.aesthetics.name" = "Aesthetics";
+"lens.category.accessibility.name" = "Accessibility";
+"lens.category.none.name" = "All";
+"lens.questions" = "Questions";
+"lens.releated" = "Related cards";
+"lens.how" = "How to use";
+"lens.how.text" = "The lenses present in this application were based on heuristics proposed by several authors, described in scientific research. \n\nThey are intended to teach more about design concepts and interface evaluation for mobile devices. \n\nUse them as you prefer: choose one at random to understand more about a specific topic; or explore them all! Soon articles will be attached that better explain the proposal and more features will be implemented.";

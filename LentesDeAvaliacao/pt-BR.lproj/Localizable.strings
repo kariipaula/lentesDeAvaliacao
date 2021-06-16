@@ -1,0 +1,14 @@
+
+
+"lens.listing.title" = "Lentes";
+"lens.listing.filter.placeholder" = "Busque por lentes";
+
+"lens.category.ux.name" = "UX";
+"lens.category.usability.name" = "Usabilidade";
+"lens.category.aesthetics.name" = "Estética";
+"lens.category.accessibility.name" = "Acessibilidade";
+"lens.category.none.name" = "Todas";
+"lens.questions" = "Perguntas";
+"lens.releated" = "Cartas relacionadas";
+"lens.how" = "Como usar";
+"lens.how.text" = "As lentes presentes neste aplicativo foram baseadas em heurísticas propostas por vários autores, descritas em pesquisas científicas. \n \n Elas possuem o objetivo de ensinar mais sobre conceitos de design e avaliação de interface para dispositivos móveis. \n \n Use-as como preferir: escolha um ao acaso para entender mais sobre um tópico específico; ou explore todos eles! Em breve serão anexados artigos que explicam melhor a proposta e mais recursos serão implementados.";

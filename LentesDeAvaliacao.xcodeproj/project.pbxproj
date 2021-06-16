@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C9D22C1264378EE00604F38 /* LensInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9D22C0264378EE00604F38 /* LensInfoView.swift */; };
+		0C9D22C626437D9B00604F38 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C9D22C826437D9B00604F38 /* Localizable.strings */; };
+		0CDE3AF1263EEFE800EFA778 /* LentesDeAvaliacaoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE3AF0263EEFE800EFA778 /* LentesDeAvaliacaoApp.swift */; };
+		0CDE3AF3263EEFE800EFA778 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE3AF2263EEFE800EFA778 /* ContentView.swift */; };
+		0CDE3AF5263EF00100EFA778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3AF4263EF00100EFA778 /* Assets.xcassets */; };
+		0CDE3AF8263EF00100EFA778 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3AF7263EF00100EFA778 /* Preview Assets.xcassets */; };
+		0CDE3B13263EF41400EFA778 /* Montserrat-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B01263EF41400EFA778 /* Montserrat-SemiBoldItalic.otf */; };
+		0CDE3B14263EF41400EFA778 /* Montserrat-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B02263EF41400EFA778 /* Montserrat-Italic.otf */; };
+		0CDE3B15263EF41400EFA778 /* Montserrat-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B03263EF41400EFA778 /* Montserrat-Thin.otf */; };
+		0CDE3B16263EF41400EFA778 /* Montserrat-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B04263EF41400EFA778 /* Montserrat-ThinItalic.otf */; };
+		0CDE3B17263EF41400EFA778 /* Montserrat-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B05263EF41400EFA778 /* Montserrat-LightItalic.otf */; };
+		0CDE3B18263EF41400EFA778 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B06263EF41400EFA778 /* Montserrat-Black.otf */; };
+		0CDE3B19263EF41400EFA778 /* Montserrat-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B07263EF41400EFA778 /* Montserrat-ExtraBoldItalic.otf */; };
+		0CDE3B1A263EF41400EFA778 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B08263EF41400EFA778 /* Montserrat-ExtraBold.otf */; };
+		0CDE3B1B263EF41400EFA778 /* Montserrat-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B09263EF41400EFA778 /* Montserrat-BlackItalic.otf */; };
+		0CDE3B1C263EF41400EFA778 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B0A263EF41400EFA778 /* Montserrat-Regular.otf */; };
+		0CDE3B1D263EF41400EFA778 /* Montserrat-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B0B263EF41400EFA778 /* Montserrat-BoldItalic.otf */; };
+		0CDE3B1E263EF41400EFA778 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B0C263EF41400EFA778 /* Montserrat-Bold.otf */; };
+		0CDE3B1F263EF41400EFA778 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B0D263EF41400EFA778 /* Montserrat-Medium.otf */; };
+		0CDE3B20263EF41400EFA778 /* Montserrat-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B0E263EF41400EFA778 /* Montserrat-ExtraLightItalic.otf */; };
+		0CDE3B21263EF41400EFA778 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B0F263EF41400EFA778 /* Montserrat-SemiBold.otf */; };
+		0CDE3B22263EF41400EFA778 /* Montserrat-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B10263EF41400EFA778 /* Montserrat-MediumItalic.otf */; };
+		0CDE3B23263EF41400EFA778 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B11263EF41400EFA778 /* Montserrat-Light.otf */; };
+		0CDE3B24263EF41400EFA778 /* Montserrat-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B12263EF41400EFA778 /* Montserrat-ExtraLight.otf */; };
+		0CDE3B28263EF4D000EFA778 /* LensFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE3B27263EF4D000EFA778 /* LensFonts.swift */; };
+		0CDE3B2C263EFD5200EFA778 /* LensColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE3B2B263EFD5200EFA778 /* LensColors.swift */; };
+		0CDE3B30263F01FB00EFA778 /* LensIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE3B2F263F01FB00EFA778 /* LensIcons.swift */; };
+		0CDE3B33263F03B700EFA778 /* LensCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE3B32263F03B700EFA778 /* LensCardView.swift */; };
+		0CDE3B36263F03FE00EFA778 /* LensCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE3B35263F03FE00EFA778 /* LensCard.swift */; };
+		0CDE3B3B263F405700EFA778 /* lenses_en.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B39263F405700EFA778 /* lenses_en.json */; };
+		0CDE3B3C263F405700EFA778 /* lenses_pt.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3B3A263F405700EFA778 /* lenses_pt.json */; };
+		0CDE3B41263F40A900EFA778 /* LensListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE3B40263F40A900EFA778 /* LensListView.swift */; };
+		0CDE3B44263F414E00EFA778 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE3B43263F414E00EFA778 /* ModelData.swift */; };
+		0CDE3B4B263F4E6900EFA778 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE3B4A263F4E6900EFA778 /* View+Extension.swift */; };
+		0CDE3B4E263F547800EFA778 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE3B4D263F547800EFA778 /* ShareSheet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C9D22C0264378EE00604F38 /* LensInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensInfoView.swift; sourceTree = "<group>"; };
+		0C9D22C726437D9B00604F38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0C9D22CA26437DA100604F38 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0CDE3AED263EEFE800EFA778 /* LentesDeAvaliacao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LentesDeAvaliacao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CDE3AF0263EEFE800EFA778 /* LentesDeAvaliacaoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LentesDeAvaliacaoApp.swift; sourceTree = "<group>"; };
+		0CDE3AF2263EEFE800EFA778 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0CDE3AF4263EF00100EFA778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CDE3AF7263EF00100EFA778 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CDE3AF9263EF00100EFA778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CDE3B01263EF41400EFA778 /* Montserrat-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		0CDE3B02263EF41400EFA778 /* Montserrat-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.otf"; sourceTree = "<group>"; };
+		0CDE3B03263EF41400EFA778 /* Montserrat-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.otf"; sourceTree = "<group>"; };
+		0CDE3B04263EF41400EFA778 /* Montserrat-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.otf"; sourceTree = "<group>"; };
+		0CDE3B05263EF41400EFA778 /* Montserrat-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.otf"; sourceTree = "<group>"; };
+		0CDE3B06263EF41400EFA778 /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		0CDE3B07263EF41400EFA778 /* Montserrat-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		0CDE3B08263EF41400EFA778 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		0CDE3B09263EF41400EFA778 /* Montserrat-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.otf"; sourceTree = "<group>"; };
+		0CDE3B0A263EF41400EFA778 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		0CDE3B0B263EF41400EFA778 /* Montserrat-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.otf"; sourceTree = "<group>"; };
+		0CDE3B0C263EF41400EFA778 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		0CDE3B0D263EF41400EFA778 /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.otf"; sourceTree = "<group>"; };
+		0CDE3B0E263EF41400EFA778 /* Montserrat-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		0CDE3B0F263EF41400EFA778 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		0CDE3B10263EF41400EFA778 /* Montserrat-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.otf"; sourceTree = "<group>"; };
+		0CDE3B11263EF41400EFA778 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		0CDE3B12263EF41400EFA778 /* Montserrat-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.otf"; sourceTree = "<group>"; };
+		0CDE3B27263EF4D000EFA778 /* LensFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensFonts.swift; sourceTree = "<group>"; };
+		0CDE3B2B263EFD5200EFA778 /* LensColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensColors.swift; sourceTree = "<group>"; };
+		0CDE3B2F263F01FB00EFA778 /* LensIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensIcons.swift; sourceTree = "<group>"; };
+		0CDE3B32263F03B700EFA778 /* LensCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensCardView.swift; sourceTree = "<group>"; };
+		0CDE3B35263F03FE00EFA778 /* LensCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensCard.swift; sourceTree = "<group>"; };
+		0CDE3B39263F405700EFA778 /* lenses_en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lenses_en.json; sourceTree = "<group>"; };
+		0CDE3B3A263F405700EFA778 /* lenses_pt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lenses_pt.json; sourceTree = "<group>"; };
+		0CDE3B40263F40A900EFA778 /* LensListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensListView.swift; sourceTree = "<group>"; };
+		0CDE3B43263F414E00EFA778 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		0CDE3B4A263F4E6900EFA778 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		0CDE3B4D263F547800EFA778 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CDE3AEA263EEFE800EFA778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CDE3AE4263EEFE800EFA778 = {
+			isa = PBXGroup;
+			children = (
+				0CDE3AEF263EEFE800EFA778 /* LentesDeAvaliacao */,
+				0CDE3AEE263EEFE800EFA778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CDE3AEE263EEFE800EFA778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CDE3AED263EEFE800EFA778 /* LentesDeAvaliacao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CDE3AEF263EEFE800EFA778 /* LentesDeAvaliacao */ = {
+			isa = PBXGroup;
+			children = (
+				0CDE3B38263F404400EFA778 /* Data */,
+				0CDE3B00263EF3FB00EFA778 /* Fonts */,
+				0CDE3AF0263EEFE800EFA778 /* LentesDeAvaliacaoApp.swift */,
+				0CDE3AF2263EEFE800EFA778 /* ContentView.swift */,
+				0CDE3AF4263EF00100EFA778 /* Assets.xcassets */,
+				0CDE3AF9263EF00100EFA778 /* Info.plist */,
+				0CDE3AF6263EF00100EFA778 /* Preview Content */,
+				0CDE3B27263EF4D000EFA778 /* LensFonts.swift */,
+				0CDE3B2B263EFD5200EFA778 /* LensColors.swift */,
+				0CDE3B2F263F01FB00EFA778 /* LensIcons.swift */,
+				0CDE3B32263F03B700EFA778 /* LensCardView.swift */,
+				0CDE3B35263F03FE00EFA778 /* LensCard.swift */,
+				0CDE3B40263F40A900EFA778 /* LensListView.swift */,
+				0CDE3B43263F414E00EFA778 /* ModelData.swift */,
+				0CDE3B4A263F4E6900EFA778 /* View+Extension.swift */,
+				0CDE3B4D263F547800EFA778 /* ShareSheet.swift */,
+				0C9D22C0264378EE00604F38 /* LensInfoView.swift */,
+				0C9D22C826437D9B00604F38 /* Localizable.strings */,
+			);
+			path = LentesDeAvaliacao;
+			sourceTree = "<group>";
+		};
+		0CDE3AF6263EF00100EFA778 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0CDE3AF7263EF00100EFA778 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0CDE3B00263EF3FB00EFA778 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0CDE3B06263EF41400EFA778 /* Montserrat-Black.otf */,
+				0CDE3B09263EF41400EFA778 /* Montserrat-BlackItalic.otf */,
+				0CDE3B0C263EF41400EFA778 /* Montserrat-Bold.otf */,
+				0CDE3B0B263EF41400EFA778 /* Montserrat-BoldItalic.otf */,
+				0CDE3B08263EF41400EFA778 /* Montserrat-ExtraBold.otf */,
+				0CDE3B07263EF41400EFA778 /* Montserrat-ExtraBoldItalic.otf */,
+				0CDE3B12263EF41400EFA778 /* Montserrat-ExtraLight.otf */,
+				0CDE3B0E263EF41400EFA778 /* Montserrat-ExtraLightItalic.otf */,
+				0CDE3B02263EF41400EFA778 /* Montserrat-Italic.otf */,
+				0CDE3B11263EF41400EFA778 /* Montserrat-Light.otf */,
+				0CDE3B05263EF41400EFA778 /* Montserrat-LightItalic.otf */,
+				0CDE3B0D263EF41400EFA778 /* Montserrat-Medium.otf */,
+				0CDE3B10263EF41400EFA778 /* Montserrat-MediumItalic.otf */,
+				0CDE3B0A263EF41400EFA778 /* Montserrat-Regular.otf */,
+				0CDE3B0F263EF41400EFA778 /* Montserrat-SemiBold.otf */,
+				0CDE3B01263EF41400EFA778 /* Montserrat-SemiBoldItalic.otf */,
+				0CDE3B03263EF41400EFA778 /* Montserrat-Thin.otf */,
+				0CDE3B04263EF41400EFA778 /* Montserrat-ThinItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0CDE3B38263F404400EFA778 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0CDE3B39263F405700EFA778 /* lenses_en.json */,
+				0CDE3B3A263F405700EFA778 /* lenses_pt.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CDE3AEC263EEFE800EFA778 /* LentesDeAvaliacao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CDE3AFC263EF00100EFA778 /* Build configuration list for PBXNativeTarget "LentesDeAvaliacao" */;
+			buildPhases = (
+				0CDE3AE9263EEFE800EFA778 /* Sources */,
+				0CDE3AEA263EEFE800EFA778 /* Frameworks */,
+				0CDE3AEB263EEFE800EFA778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LentesDeAvaliacao;
+			productName = LentesDeAvaliacao;
+			productReference = 0CDE3AED263EEFE800EFA778 /* LentesDeAvaliacao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CDE3AE5263EEFE800EFA778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0CDE3AEC263EEFE800EFA778 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 0CDE3AE8263EEFE800EFA778 /* Build configuration list for PBXProject "LentesDeAvaliacao" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+			);
+			mainGroup = 0CDE3AE4263EEFE800EFA778;
+			productRefGroup = 0CDE3AEE263EEFE800EFA778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CDE3AEC263EEFE800EFA778 /* LentesDeAvaliacao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CDE3AEB263EEFE800EFA778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDE3B21263EF41400EFA778 /* Montserrat-SemiBold.otf in Resources */,
+				0CDE3B1A263EF41400EFA778 /* Montserrat-ExtraBold.otf in Resources */,
+				0C9D22C626437D9B00604F38 /* Localizable.strings in Resources */,
+				0CDE3B1F263EF41400EFA778 /* Montserrat-Medium.otf in Resources */,
+				0CDE3B15263EF41400EFA778 /* Montserrat-Thin.otf in Resources */,
+				0CDE3B24263EF41400EFA778 /* Montserrat-ExtraLight.otf in Resources */,
+				0CDE3B3B263F405700EFA778 /* lenses_en.json in Resources */,
+				0CDE3B13263EF41400EFA778 /* Montserrat-SemiBoldItalic.otf in Resources */,
+				0CDE3B23263EF41400EFA778 /* Montserrat-Light.otf in Resources */,
+				0CDE3B20263EF41400EFA778 /* Montserrat-ExtraLightItalic.otf in Resources */,
+				0CDE3B19263EF41400EFA778 /* Montserrat-ExtraBoldItalic.otf in Resources */,
+				0CDE3AF8263EF00100EFA778 /* Preview Assets.xcassets in Resources */,
+				0CDE3B14263EF41400EFA778 /* Montserrat-Italic.otf in Resources */,
+				0CDE3B1B263EF41400EFA778 /* Montserrat-BlackItalic.otf in Resources */,
+				0CDE3B18263EF41400EFA778 /* Montserrat-Black.otf in Resources */,
+				0CDE3B1D263EF41400EFA778 /* Montserrat-BoldItalic.otf in Resources */,
+				0CDE3B1E263EF41400EFA778 /* Montserrat-Bold.otf in Resources */,
+				0CDE3B22263EF41400EFA778 /* Montserrat-MediumItalic.otf in Resources */,
+				0CDE3AF5263EF00100EFA778 /* Assets.xcassets in Resources */,
+				0CDE3B16263EF41400EFA778 /* Montserrat-ThinItalic.otf in Resources */,
+				0CDE3B17263EF41400EFA778 /* Montserrat-LightItalic.otf in Resources */,
+				0CDE3B3C263F405700EFA778 /* lenses_pt.json in Resources */,
+				0CDE3B1C263EF41400EFA778 /* Montserrat-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CDE3AE9263EEFE800EFA778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDE3B33263F03B700EFA778 /* LensCardView.swift in Sources */,
+				0CDE3AF3263EEFE800EFA778 /* ContentView.swift in Sources */,
+				0C9D22C1264378EE00604F38 /* LensInfoView.swift in Sources */,
+				0CDE3B4B263F4E6900EFA778 /* View+Extension.swift in Sources */,
+				0CDE3B44263F414E00EFA778 /* ModelData.swift in Sources */,
+				0CDE3B30263F01FB00EFA778 /* LensIcons.swift in Sources */,
+				0CDE3AF1263EEFE800EFA778 /* LentesDeAvaliacaoApp.swift in Sources */,
+				0CDE3B28263EF4D000EFA778 /* LensFonts.swift in Sources */,
+				0CDE3B36263F03FE00EFA778 /* LensCard.swift in Sources */,
+				0CDE3B41263F40A900EFA778 /* LensListView.swift in Sources */,
+				0CDE3B2C263EFD5200EFA778 /* LensColors.swift in Sources */,
+				0CDE3B4E263F547800EFA778 /* ShareSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C9D22C826437D9B00604F38 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C9D22C726437D9B00604F38 /* en */,
+				0C9D22CA26437DA100604F38 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CDE3AFA263EF00100EFA778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CDE3AFB263EF00100EFA778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CDE3AFD263EF00100EFA778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"LentesDeAvaliacao/Preview Content\"";
+				DEVELOPMENT_TEAM = P8ZMSZU6UR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LentesDeAvaliacao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.karinapaula.LentesDeAvaliacao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0CDE3AFE263EF00100EFA778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"LentesDeAvaliacao/Preview Content\"";
+				DEVELOPMENT_TEAM = P8ZMSZU6UR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LentesDeAvaliacao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.karinapaula.LentesDeAvaliacao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CDE3AE8263EEFE800EFA778 /* Build configuration list for PBXProject "LentesDeAvaliacao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CDE3AFA263EF00100EFA778 /* Debug */,
+				0CDE3AFB263EF00100EFA778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CDE3AFC263EF00100EFA778 /* Build configuration list for PBXNativeTarget "LentesDeAvaliacao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CDE3AFD263EF00100EFA778 /* Debug */,
+				0CDE3AFE263EF00100EFA778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CDE3AE5263EEFE800EFA778 /* Project object */;
+}
